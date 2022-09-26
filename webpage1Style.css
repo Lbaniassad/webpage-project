@@ -5,8 +5,13 @@
     justify-content:space-around;
     align-items:center;
     flex-direction: row;
-    font-size:14px;
+}
+
+.navigationButtons button{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
 }
 
 #blog {
@@ -140,14 +145,27 @@ iframe {
 }
 
 .albumCovers img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px
 }
 
 .albumCovers {
-    background-color: black;
+    background-color: maroon;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.albumCovers p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
